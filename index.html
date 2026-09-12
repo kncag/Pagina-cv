@@ -3,48 +3,299 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <title>Kevin Cabrera</title>
+<meta name="description" content="Kevin Cabrera — Contador Público Colegiado, especialista en operaciones de pagos y constructor de automatizaciones en Python. Donde la contabilidad se encuentra con el código.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="./Styles/Style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="header-menu">
-            <a class= "header-link" href="index.html">Home</a>
-            <a class= "header-link" href="about.html">Sobre mi</a>
-        </nav>
-    </header>
-    <main class="presentacion">
-        <section class="presentacion-texto">
-            <h1 class="Titulo1">
-                Impulsa tus finanzas <strong class="Destaque1">aquí</strong>
-            </h1> 
-                <p class="parrafo1">
-                    Mi nombre es <strong class="Destaque2">Kevin Cabrera</strong>, 
-                    con una buena idea e información financiera, puedes lograr grandes
-                    cosas. Desde información relevante para la toma de decisiones,
-                    un dashboard inteligente, consejos prácticos para mejorar
-                    la salud financiera de una empresa o la tuya! Y lo mejor de todo
-                    es que con Inteligencia Artificial y desarrollos tecnológicos
-                    también he creado automatizaciones con benficios de 
-                    eficiencia y calidad del trabajo.
-                </p>
-                <div class="redes">
-                    <h2 class="subredes">Accede a mis redes sociales</h2>
-                    <a class="igh" href="https://github.com/kncag">
-                        <img src="./assets/github.png" alt="gth icon">
-                        Github</a>
-                    <a class="igh" href="https://www.linkedin.com/in/kevin-cabrera-knca">
-                        <img src="./assets/linkedin.png" alt="twt icon">
-                        LinkedIn</a>
-                </div>
-        </section>
-            <img class="pic" src="./assets/Imagem.png" alt="imagen de Ana">
-    
-    </main>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">Kevin&nbsp;Cabrera<span class="dot">.</span></div>
+    <nav class="nav">
+      <div class="nav-links">
+        <a href="#experiencia" data-es="Experiencia" data-en="Experience">Experiencia</a>
+        <a href="#proyectos" data-es="Proyectos" data-en="Projects">Proyectos</a>
+        <a href="#credenciales" data-es="Credenciales" data-en="Credentials">Credenciales</a>
+        <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+      </div>
+      <div class="controls">
+        <div class="lang-seg" role="group" aria-label="Idioma / Language">
+          <button id="lang-es" aria-pressed="true">ES</button>
+          <button id="lang-en" aria-pressed="false">EN</button>
+        </div>
+        <button class="btn-ghost" id="theme-toggle" aria-label="Cambiar tema">
+          <span id="theme-icon">◐</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
 
-    <footer>
-        <p class="footer-texto">Hecho por Kevin Cabrera</p>
-    </footer>
-    
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow" data-es="Contador Público Colegiado · Automatización en Python" data-en="Certified Public Accountant · Python Automation">Contador Público Colegiado · Automatización en Python</span>
+        <h1>Kevin Cabrera</h1>
+        <p class="tagline" data-es="Donde la contabilidad se encuentra con el <span class='hl'>código</span>." data-en="Where accounting meets <span class='hl'>code</span>.">Donde la contabilidad se encuentra con el <span class="hl">código</span>.</p>
+        <p class="lead" data-es="Especialista en operaciones de pagos en una fintech, tesista de maestría y constructor de automatizaciones que convierten procesos manuales en flujos casi autónomos —con rigor contable y Python." data-en="Payments operations specialist at a fintech, master's thesis student, and builder of automations that turn manual processes into near-autonomous workflows — with accounting rigor and Python.">Especialista en operaciones de pagos en una fintech, tesista de maestría y constructor de automatizaciones que convierten procesos manuales en flujos casi autónomos —con rigor contable y Python.</p>
+        <div class="chips">
+          <span class="chip"><span class="pin">◆</span> <span data-es="Lima, Perú" data-en="Lima, Peru">Lima, Perú</span></span>
+          <span class="chip">Python · RPA · Streamlit</span>
+          <span class="chip">SAP FI · Power BI</span>
+          <span class="chip" data-es="Inglés avanzado" data-en="Advanced English">Inglés avanzado</span>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contacto" data-es="Contáctame" data-en="Get in touch">Contáctame</a>
+          <button class="btn btn-outline" id="cv-btn">
+            <svg class="svgico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span data-es="Descargar CV" data-en="Download CV">Descargar CV</span>
+          </button>
+        </div>
+      </div>
+      <div class="portrait">
+        <img src="./assets/photo.jpg" alt="Kevin Cabrera">
+        <div class="badge">
+          <div class="k mono">Kashio Perú</div>
+          <div class="v" data-es="Ops. de Pagos" data-en="Payments Ops">Ops. de Pagos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ledger" aria-label="Resultados de automatización">
+      <div class="cell">
+        <div class="num">−50%</div>
+        <div class="cap" data-es="menos tiempo de ejecución" data-en="less execution time">menos tiempo de ejecución</div>
+        <div class="src" data-es="conciliación · Kashio" data-en="reconciliation · Kashio">conciliación · Kashio</div>
+      </div>
+      <div class="cell">
+        <div class="num">~0%</div>
+        <div class="cap" data-es="errores humanos" data-en="human errors">errores humanos</div>
+        <div class="src" data-es="flujo casi autónomo" data-en="near-autonomous flow">flujo casi autónomo</div>
+      </div>
+      <div class="cell">
+        <div class="num">3</div>
+        <div class="cap" data-es="procesos end-to-end automatizados" data-en="end-to-end processes automated">procesos end-to-end automatizados</div>
+        <div class="src" data-es="Python + Streamlit" data-en="Python + Streamlit">Python + Streamlit</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experiencia">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-es="Trayectoria" data-en="Career">Trayectoria</span>
+      <h2 data-es="Experiencia" data-en="Experience">Experiencia</h2>
+    </div>
+    <div class="exp">
+      <div class="exp-row reveal">
+        <div class="exp-when">Abr 2023 — <span class="now" data-es="Presente" data-en="Present">Presente</span></div>
+        <div class="exp-body">
+          <h3><span data-es="Especialista en Operaciones de Pagos I" data-en="Payments Operations Specialist I">Especialista en Operaciones de Pagos I</span> · <span class="org">Kashio Perú S.A.C.</span></h3>
+          <p data-es="Operación y conciliación de pagos en una fintech de pasarela de pagos y cobros. Diseñé automatizaciones en Python (scripts desplegados en Streamlit) para tres procesos end-to-end de conciliación, reduciendo ~50% el tiempo de ejecución y llevando los errores humanos cerca de 0%." data-en="Payment operations and reconciliation at a payments-gateway fintech. Built Python automations (scripts deployed on Streamlit) for three end-to-end reconciliation processes, cutting execution time by ~50% and driving human errors close to 0%.">Operación y conciliación de pagos en una fintech de pasarela de pagos y cobros. Diseñé automatizaciones en Python (scripts desplegados en Streamlit) para tres procesos end-to-end de conciliación, reduciendo ~50% el tiempo de ejecución y llevando los errores humanos cerca de 0%.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">RPA · Rocketbot</span><span class="tag">Streamlit</span><span class="tag" data-es="Conciliación" data-en="Reconciliation">Conciliación</span><span class="tag">SAP FI</span></div>
+        </div>
+      </div>
+      <div class="exp-row reveal">
+        <div class="exp-when" data-es="Freelance" data-en="Freelance">Freelance</div>
+        <div class="exp-body">
+          <h3>QA Engineer · <span class="org">Testerwork</span></h3>
+          <p data-es="Testing de aplicaciones web y móviles para empresas del sector tecnológico. Diseño y ejecución de test case scenarios y procesos KYC dentro del control de calidad de productos digitales." data-en="Web and mobile app testing for technology-sector companies. Design and execution of test case scenarios and KYC processes within digital-product quality control.">Testing de aplicaciones web y móviles para empresas del sector tecnológico. Diseño y ejecución de test case scenarios y procesos KYC dentro del control de calidad de productos digitales.</p>
+          <div class="tags"><span class="tag">QA</span><span class="tag">KYC</span><span class="tag">Test Cases</span></div>
+        </div>
+      </div>
+      <div class="exp-row reveal">
+        <div class="exp-when" data-es="Trayectoria previa" data-en="Earlier">Trayectoria previa</div>
+        <div class="exp-body">
+          <h3 data-es="Auditoría, tributación y consultoría" data-en="Audit, tax & consulting">Auditoría, tributación y consultoría</h3>
+          <div class="prev-list">
+            <div class="pi"><b>EY</b> · <span data-es="Auditoría financiera" data-en="Financial audit">Auditoría financiera</span></div>
+            <div class="pi"><b>CCD Global Tax Consulting</b> · <span data-es="Consultoría tributaria" data-en="Tax consulting">Consultoría tributaria</span></div>
+            <div class="pi"><b>LUCET S.A.C.</b> · <span data-es="Finanzas y planillas" data-en="Finance & payroll">Finanzas y planillas</span></div>
+            <div class="pi"><b data-es="Consultor independiente" data-en="Independent consultant">Consultor independiente</b> · <span data-es="Finanzas, planillas y tributación" data-en="Finance, payroll & tax">Finanzas, planillas y tributación</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="proyectos">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-es="Qué construyo" data-en="What I build">Qué construyo</span>
+      <h2 data-es="Proyectos y automatizaciones" data-en="Projects & automations">Proyectos y automatizaciones</h2>
+    </div>
+    <div class="proj-grid">
+      <div class="card reveal">
+        <div class="num-idx">01</div>
+        <h3 data-es="Conciliación de pagos automatizada" data-en="Automated payments reconciliation">Conciliación de pagos automatizada</h3>
+        <p data-es="Pipeline de conciliación en Python desplegado en Streamlit para tres procesos end-to-end. Convirtió un flujo manual en uno casi autónomo dentro de la operación diaria." data-en="Python reconciliation pipeline deployed on Streamlit across three end-to-end processes. Turned a manual flow into a near-autonomous one inside daily operations.">Pipeline de conciliación en Python desplegado en Streamlit para tres procesos end-to-end. Convirtió un flujo manual en uno casi autónomo dentro de la operación diaria.</p>
+        <div class="metric-chips"><span class="mchip">−50% <span data-es="tiempo" data-en="time">tiempo</span></span><span class="mchip">~0% <span data-es="errores" data-en="errors">errores</span></span><span class="mchip">3 <span data-es="procesos" data-en="processes">procesos</span></span></div>
+      </div>
+      <div class="card reveal">
+        <div class="num-idx">02</div>
+        <h3 data-es="RPA con Rocketbot" data-en="RPA with Rocketbot">RPA con Rocketbot</h3>
+        <p data-es="Automatizaciones de tareas repetitivas sobre Rocketbot (RPA basado en Python), aplicadas al flujo regular de operaciones para liberar tiempo del equipo." data-en="Repetitive-task automations on Rocketbot (Python-based RPA), applied to the regular operations flow to free up team time.">Automatizaciones de tareas repetitivas sobre Rocketbot (RPA basado en Python), aplicadas al flujo regular de operaciones para liberar tiempo del equipo.</p>
+        <div class="metric-chips"><span class="mchip">Python</span><span class="mchip">RPA</span></div>
+      </div>
+      <div class="card reveal">
+        <div class="num-idx">03</div>
+        <h3 data-es="Dashboards financieros" data-en="Financial dashboards">Dashboards financieros</h3>
+        <p data-es="Tableros en Power BI que traducen datos financieros en información relevante para la toma de decisiones —de la hoja de cálculo a la decisión." data-en="Power BI dashboards that translate financial data into decision-ready insight — from spreadsheet to decision.">Tableros en Power BI que traducen datos financieros en información relevante para la toma de decisiones —de la hoja de cálculo a la decisión.</p>
+        <div class="metric-chips"><span class="mchip">Power BI</span><span class="mchip" data-es="Análisis" data-en="Analytics">Análisis</span></div>
+      </div>
+      <div class="card reveal">
+        <div class="num-idx">04</div>
+        <h3 data-es="Investigación de maestría" data-en="Master's research">Investigación de maestría</h3>
+        <p data-es="Tesis de maestría en Ciencias Contables (UNMSM): análisis financiero con enfoque en costos y toma de decisiones. Perfil de investigación registrado en ORCID." data-en="Master's thesis in Accounting Sciences (UNMSM): financial analysis focused on costs and decision-making. Research profile registered on ORCID.">Tesis de maestría en Ciencias Contables (UNMSM): análisis financiero con enfoque en costos y toma de decisiones. Perfil de investigación registrado en ORCID.</p>
+        <div class="metric-chips"><a class="mchip" href="https://orcid.org/0009-0000-9145-1429" target="_blank" rel="noopener">ORCID ↗</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section id="credenciales">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-es="Formación y certificaciones" data-en="Education & certifications">Formación y certificaciones</span>
+      <h2 data-es="Credenciales" data-en="Credentials">Credenciales</h2>
+    </div>
+    <div class="creds">
+      <div class="cred reveal">
+        <div class="lbl" data-es="Maestría · en curso" data-en="Master's · in progress">Maestría · en curso</div>
+        <div class="val" data-es="Ciencias Contables" data-en="Accounting Sciences">Ciencias Contables</div>
+        <div class="sub">UNMSM</div>
+      </div>
+      <div class="cred reveal">
+        <div class="lbl" data-es="Colegiatura" data-en="License">Colegiatura</div>
+        <div class="val" data-es="Contador Público Colegiado" data-en="Certified Public Accountant">Contador Público Colegiado</div>
+        <div class="sub mono">CPC · N.° 67420 · PUCP</div>
+      </div>
+      <div class="cred reveal">
+        <div class="lbl" data-es="Certificación" data-en="Certification">Certificación</div>
+        <div class="val">SAP FI · Key User</div>
+        <div class="sub" data-es="Finanzas en SAP" data-en="SAP Financials">Finanzas en SAP</div>
+      </div>
+      <div class="cred reveal">
+        <div class="lbl" data-es="Idioma" data-en="Language">Idioma</div>
+        <div class="val" data-es="Inglés avanzado" data-en="Advanced English">Inglés avanzado</div>
+        <div class="sub"><a href="https://orcid.org/0009-0000-9145-1429" target="_blank" rel="noopener">ORCID ↗</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contacto">
+    <div class="contact reveal">
+      <div class="contact-grid">
+        <div>
+          <span class="eyebrow" data-es="Trabajemos juntos" data-en="Let's work together">Trabajemos juntos</span>
+          <h2 data-es="Hablemos de tu operación financiera." data-en="Let's talk about your financial operation.">Hablemos de tu operación financiera.</h2>
+          <p data-es="Consultoría, automatización de procesos o una conversación —estoy a un correo de distancia." data-en="Consulting, process automation, or just a conversation — I'm one email away.">Consultoría, automatización de procesos o una conversación —estoy a un correo de distancia.</p>
+        </div>
+        <div class="contact-actions">
+          <button class="email-btn" id="email-btn">
+            <span class="mono">knc.aguirre@gmail.com</span>
+            <span class="copy" id="copy-label" data-es="Copiar" data-en="Copy">Copiar</span>
+          </button>
+          <div class="social-row">
+            <a class="btn btn-outline" href="https://www.linkedin.com/in/kevin-cabrera-knca" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn-outline" href="https://github.com/kncag" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span data-es="Diseñado y construido por Kevin Cabrera" data-en="Designed & built by Kevin Cabrera">Diseñado y construido por Kevin Cabrera</span>
+    <span class="mono">Lima, Perú · 2026</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement;
+
+  // ---- Theme ----
+  var themeBtn = document.getElementById('theme-toggle');
+  var themeIcon = document.getElementById('theme-icon');
+  function applyTheme(t){
+    if(t==='dark'||t==='light'){ root.setAttribute('data-theme',t); }
+    else { root.removeAttribute('data-theme'); }
+    themeIcon.textContent = (currentTheme()==='dark') ? '☀' : '◐';
+  }
+  function currentTheme(){
+    var t = root.getAttribute('data-theme');
+    if(t) return t;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  try{ var st = localStorage.getItem('kc-theme'); if(st) applyTheme(st); else applyTheme('system'); }catch(e){ applyTheme('system'); }
+  themeBtn.addEventListener('click', function(){
+    var next = currentTheme()==='dark' ? 'light' : 'dark';
+    applyTheme(next);
+    try{ localStorage.setItem('kc-theme', next); }catch(e){}
+  });
+
+  // ---- Language ----
+  var esBtn = document.getElementById('lang-es');
+  var enBtn = document.getElementById('lang-en');
+  function setLang(lang){
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var v = el.getAttribute('data-'+lang);
+      if(v!=null) el.innerHTML = v;
+    });
+    root.setAttribute('lang', lang==='en'?'en':'es');
+    esBtn.setAttribute('aria-pressed', String(lang==='es'));
+    enBtn.setAttribute('aria-pressed', String(lang==='en'));
+    try{ localStorage.setItem('kc-lang', lang); }catch(e){}
+  }
+  esBtn.addEventListener('click', function(){ setLang('es'); });
+  enBtn.addEventListener('click', function(){ setLang('en'); });
+  var savedLang = 'es';
+  try{ savedLang = localStorage.getItem('kc-lang') || 'es'; }catch(e){}
+  setLang(savedLang);
+
+  // ---- CV (print) ----
+  document.getElementById('cv-btn').addEventListener('click', function(){ window.print(); });
+
+  // ---- Copy email ----
+  var emailBtn = document.getElementById('email-btn');
+  var copyLabel = document.getElementById('copy-label');
+  emailBtn.addEventListener('click', function(){
+    var email='knc.aguirre@gmail.com';
+    var done=function(){
+      var lang = (root.getAttribute('lang')==='en')?'en':'es';
+      copyLabel.textContent = lang==='en' ? 'Copied ✓' : 'Copiado ✓';
+      copyLabel.removeAttribute('data-es'); copyLabel.removeAttribute('data-en');
+      setTimeout(function(){
+        copyLabel.setAttribute('data-es','Copiar'); copyLabel.setAttribute('data-en','Copy');
+        copyLabel.textContent = lang==='en' ? 'Copy':'Copiar';
+      },1800);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(email).then(done).catch(function(){ window.location.href='mailto:'+email; });
+    } else { window.location.href='mailto:'+email; }
+  });
+
+  // ---- Reveal on scroll ----
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.reveal');
+  if(reduce || !('IntersectionObserver' in window)){
+    items.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, {threshold:0.12});
+    items.forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
 </body>
 </html>
